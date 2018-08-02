@@ -18,11 +18,73 @@ body {
   line-height: 1.4;
 }
 
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 /* Main-banner Section */
 
 .main-banner {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png" alt="man wearing glasses");
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
+  height: 30rem;
+  /*position: relative;*/
+}
+
+.headline {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  /*background: none;*/
+  padding: 1.5rem 5rem;
+  background-color: white;
+  width: 35rem;
+  position: absolute;
+  top: 10rem;
+  right: 2rem;
+
+  /*position: relative;
+  top: 10rem;
+  left: 2rem;*/
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: cadetblue;
+  margin: 1rem 0;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  flex: 1;
+}
+
+.logo img {
+  height: 1.5rem;
+}
+
+.logo span {
+  padding-left: 1rem;
+}
+
+/* Navigation Bar */
+
+nav li{
+  display: inline-block;
+  padding: 1rem 2rem;
+}
+
+.nav-mobile {
+  display: none;
 }

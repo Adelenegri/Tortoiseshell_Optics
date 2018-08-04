@@ -39,17 +39,12 @@ body {
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
-  /*background: none;*/
   padding: 1.5rem 5rem;
   background-color: white;
   width: 35rem;
   position: absolute;
   top: 10rem;
   right: 2rem;
-
-  /*position: relative;
-  top: 10rem;
-  left: 2rem;*/
 }
 
 /* Header */
@@ -87,4 +82,72 @@ nav li{
 
 .nav-mobile {
   display: none;
+}
+
+/* Services Section */
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 14rem;
+}
+
+.service-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem 3rem
+  /*padding-right: 6rem;*/
+}
+
+.icon {
+  /*display: flex;
+  justify-content: center;*/
+  width: 5rem;
+  height: 5rem;
+}
+
+.icon.paper {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.icon.paper img {
+  max-width: 3.5rem;
+}
+
+.icon.ruler img {
+  max-width: 5rem;
+}
+
+.icon.truck img {
+  max-width: 5rem;
+}
+
+.title {
+  text-align: center;
+}
+
+/* Information Section */
+
+.info {
+  display: flex;
+}
+
+.head {
+  width: 10rem;
+  height: 2.5rem;
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+}
+
+.description {
+  width: 35%;
 }

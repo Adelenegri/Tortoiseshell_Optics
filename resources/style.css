@@ -137,6 +137,7 @@ nav li{
 
 .info {
   display: flex;
+  /*width: 35%;*/
 }
 
 .head {
@@ -150,4 +151,5 @@ nav li{
 
 .description {
   width: 35%;
+  padding: 1rem 5%;
 }
